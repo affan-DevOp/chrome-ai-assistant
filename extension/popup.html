@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header>
+  Page AI Assistant
+  </header>
+
+  <div id="response-box">
+    <div class="placeholder"> Hi there! Ask me anything about the content on this page.</div>
+  </div>
+
+  <div class="suggestion-pills">
+    <button>✨ Tell me more</button>
+    <button>🔍 Deep Dive</button>
+    <button>💡 Examples</button>
+  </div>
+
+  <div class="input-wrapper">
+    <textarea id="query-input" placeholder="Type a question..."></textarea>
+    <button id="ask-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z"/>
+      </svg>
+    </button>
+  </div>
+
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
